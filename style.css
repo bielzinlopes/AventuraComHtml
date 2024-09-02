@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+    color: azure;
+    font-family: "Sevillana", cursive;
+    font-size: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+    button {
+        background-color: aqua;
+        color: rgb(17, 0, 90);
+        font-family: "Sevillana", cursive;
+        font-size: 23px;
+    }
+
+    .passo {
+        display: none;
+    }
+
+    .passo.ativo {
+        display: block;
+    }
+
+    main {
+        text-align: center;
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 90%;
+    }
